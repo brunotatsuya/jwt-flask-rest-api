@@ -15,5 +15,5 @@ def init(app):
         if not user_data:
             return jsonify({"message": "Invalid credentials", "status": 400}), 400
 
-        token = generate_jwt(payload=user_data, lifetime=60)
+        token = generate_jwt(payload=user_data, lifetime=60) # <--- generates a JWT with valid within 1 hour by now
         return jsonify({"data": token, "status": 200}), 200
