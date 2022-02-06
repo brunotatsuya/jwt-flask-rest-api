@@ -1,6 +1,6 @@
 # JWT implementation for REST APIs made with Flask
 
-Read about this project template [here](https://brunotatsuya.dev/blog)!
+Read about this project template [here](https://brunotatsuya.dev/blog/jwt-authentication-and-authorization-for-python-flask-rest-apis)!
 
 ## How to use it?
 
